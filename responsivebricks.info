@@ -1,0 +1,56 @@
+;Responsive Bricks
+;(c) 2012 Giovanni Canzio <giovanni.canzio@gmail.com>
+;
+;This file is part of Responsive Bricks
+;
+;This is free software: you can redistribute it and/or modify
+;it under the terms of the GNU General Public License as published by
+;the Free Software Foundation, either version 3 of the License, or
+;(at your option) any later version.
+;
+;Responsive Bricks is distributed in the hope that it will be useful,
+;but WITHOUT ANY WARRANTY; without even the implied warranty of
+;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;GNU General Public License for more details.
+
+
+name = Responsive Bricks 0.1
+description = Drupal teplate based on Skeleton
+engine = phptemplate
+
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/skeleton.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/local_layout.css
+
+scripts[] = script/jquery-1.7.1.min.js
+scripts[] = script/modernizr-2.0.6.js
+scripts[] = script/tabs.js
+scripts[] = script/custom_script.js
+
+
+; CONFIRMED REGIONS
+regions[search_box] = Search region
+; ### TEMP TOP NAVIGATION ###
+regions[top_navigation] = top_navigation
+; ### ------------------- ###
+regions[communication_banner] = Communication Banner
+regions[preface_first] = Preface first
+regions[preface_middle] = Preface middle
+regions[preface_last] = Preface last
+regions[sidebar_first] = Left sidebar
+regions[content_top] = Content top
+regions[help] = Help
+regions[content] = Main content
+regions[sidebar_second] = Right sidebar
+regions[bottom_first] = Bottom first
+regions[bottom_middle] = Bottom middle
+regions[bottom_last] = Bottom last
+regions[bottom_1] = Bottom 1
+regions[bottom_2] = Bottom 2
+regions[bottom_3] = Bottom 3
+regions[bottom_4] = Bottom 4
+regions[prefooter] = Prefooter
+regions[footer] = Footer
+
+core = "7.x"
