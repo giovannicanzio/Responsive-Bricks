@@ -88,7 +88,7 @@
                 </ul>
             <?php endif; ?>
             
-            <a href="#" style="position: absolute; top: 120px; right: 10px;" class="remove-bottom button">Download Responsive Bricks from Github</a>
+            <a href="https://github.com/giovannicanzio/Responsive-Bricks/zipball/master" style="position: absolute; top: 120px; right: 10px;" class="remove-bottom button">Download Responsive Bricks from Github</a>
             
     </header>
 
